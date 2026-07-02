@@ -227,6 +227,7 @@ python scripts/make_figures.py         # -> figures/nofreelunch.png
 - 🔍 **AIコード監査・修正**：AIで一気に作った後の「テスト不足・握り潰し・実装のズレ」を第三者の目で点検し、**どこが・なぜ危険か・どう直すか**をテキストで納品します（通話なし） — [ココナラで依頼](https://coconala.com/services/4282365)
 - 🧑‍💻 本記事のコード・全ログ・GT・独立検算スクリプト → [GitHub: llm-audit-nondeterminism](https://github.com/axiom-pro/llm-audit-nondeterminism)
 - 📝 姉妹編（Qiita）：[**AIは失敗を握り潰す、と思って120本測ったら**](https://qiita.com/axiompro70/items/dc2a839a8f3618d0da12) — あちらは「**そもそも欠陥をどう見つけるか**（静的解析でも判定しきれない"握り潰し"）」、本記事は「**見つけた指摘がどれだけ揺れるか**」。**入口が違う2本**です。
+- 📖 物語版（note）：[**同じコードをAIに51回チェックさせた話——「多数決すれば安心」は幻想でした**](https://note.com/loyal_pipit687/n/n7b341eda5cba) — 本記事の内容を、非エンジニアの方にも読める物語として再構成したものです（測定の裏側の失敗談つき）。
 
 AIで作ったコードに「一応動くけど、このまま出していいか不安」があるなら——本記事と同じ規律（ログ・テスト・静的解析・人の仕様確認を分けて点検）で監査します。テキスト完結・通話なしで相談できます（[プロフィール](https://coconala.com/users/6153961)。受託開発の依頼もこちらから）。
 
